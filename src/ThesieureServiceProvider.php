@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Dinhdjj\Thesieure;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Dinhdjj\Thesieure\Commands\ThesieureCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class ThesieureServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,11 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('thesieure')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            // ->hasViews()
+            // ->hasMigration('create_thesieure_table')
+            // ->hasCommand(ThesieureCommand::class)
+        ;
     }
 }
