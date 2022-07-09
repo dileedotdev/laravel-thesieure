@@ -2,9 +2,9 @@
 
 namespace Dinhdjj\Thesieure;
 
+use Dinhdjj\Thesieure\Commands\ThesieureCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dinhdjj\Thesieure\Commands\ThesieureCommand;
 
 class ThesieureServiceProvider extends PackageServiceProvider
 {
